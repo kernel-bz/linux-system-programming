@@ -1,6 +1,5 @@
-# system
 
-리눅스 시스템 프로그래밍(First Edition)
+# 리눅스 시스템 프로그래밍(First Edition)
 
 책안의 소스들:  20system_20160708.tar.gz
 
@@ -8,7 +7,7 @@
 
 ------------------------------------------------------
 
-리눅스 시스템 프로그래밍(Second Edition)
+# 리눅스 시스템 프로그래밍(Second Edition)
 
 책안의 소스들: LSP_Book2_Source.zip
 
