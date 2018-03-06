@@ -1,0 +1,130 @@
+//TITLE------------------------------------------------------------------------
+//file name	:	ch0501.dat
+//function	:	질문하는 말을 합니다.(의문문)
+//creation	:	2009-05-20
+//edition	:   2009-06-25
+//COMMENT----------------------------------------------------------------------
+//#순번
+//query=학습질문(최대80자)
+//path=그림경로(절대경로,최대40자)
+//pic1=그림첫번째 파일명(최대20자)
+//pic2=그림두번째 파일명(최대20자)
+//pic3=그림세번째 파일명(최대20자)
+//pic4=그림네번째 파일명(최대20자)
+//ans=정답번호
+//timeout=대기시간(초)
+//-----------------------------------------------------------------------------
+#START
+#
+query=Is she a girl?  Yes, she is a girl.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010101.jpg
+pic2=ch010102.jpg
+pic3=ch010107.jpg
+pic4=ch010117.jpg
+ans=2
+timeout=0
+
+#
+query=Is he a boy?  No, he is not boy.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010118.jpg
+pic2=ch010123.jpg
+pic3=ch010104.jpg
+pic4=ch010111.jpg
+ans=1
+timeout=0
+
+#
+query=Is she a woman?  Yes, she is.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010129.jpg
+pic2=ch010104.jpg
+pic3=ch010208.jpg
+pic4=ch010209.jpg
+ans=2
+timeout=0
+
+#
+query=Are flowers red?  No, Those are white.
+path=/mnt/usb2/ebook/data/pic/ch03/
+pic1=ch030108.jpg
+pic2=ch030104.jpg
+pic3=ch030103.jpg
+pic4=ch030105.jpg
+ans=3
+timeout=0
+
+#
+query=Who is he?  He is a boy.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010211.jpg
+pic2=ch010218.jpg
+pic3=ch010114.jpg
+pic4=ch010208.jpg
+ans=4
+timeout=0
+
+#
+query=What is It?  It is a car.
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020201.jpg
+pic2=ch020126.jpg
+pic3=ch020301.jpg
+pic4=ch020125.jpg
+ans=3
+timeout=0
+
+#
+query=Where are books?  Books are under the table.
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020112.jpg
+pic2=ch020111.jpg
+pic3=ch020115.jpg
+pic4=ch020122.jpg
+ans=1
+timeout=0
+
+#
+query=Where is he?  He is on the bench.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010113.jpg
+pic2=ch010109.jpg
+pic3=ch010119.jpg
+pic4=ch010117.jpg
+ans=2
+timeout=0
+
+#
+query=How many people are there?  There are three people.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010125.jpg
+pic2=ch010126.jpg
+pic3=ch010133.jpg
+pic4=ch010127.jpg
+ans=3
+timeout=0
+
+//-----------------------------------------------------------------------------
+#
+query=Do they play the piano?  No, they are in front of the piano.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010107.jpg
+pic2=ch010108.jpg
+pic3=ch010106.jpg
+pic4=ch010215.jpg
+ans=3
+timeout=0
+
+#
+query=Does she has a red ball?  Yes, she has.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010201.jpg
+pic2=ch010210.jpg
+pic3=ch010219.jpg
+pic4=ch010217.jpg
+ans=1
+timeout=0
+
+#END
+//-----------------------------------------------------------------------------

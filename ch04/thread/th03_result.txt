@@ -1,0 +1,18 @@
+jungjj@linux-3hqy:~/school/02system/ch06/thread> gcc -lpthread -o th03 th03_exit.c
+jungjj@linux-3hqy:~/school/02system/ch06/thread> ./th03
+Parent starts the second thread
+thread 1: ID is 3085626256
+thread 1:
+  structure at 0xB7EAE3B8
+  foo.a = 1
+  foo.b = 2
+  foo.c = 3
+thread 2: ID is 3077233552
+  foo.d = 4
+Parent:
+  structure at 0xB7EAE3B8
+  foo.a = -1207926796
+  foo.b = -1207934360
+  foo.c = -1207934356
+  foo.d = -1209343016
+jungjj@linux-3hqy:~/school/02system/ch06/thread>

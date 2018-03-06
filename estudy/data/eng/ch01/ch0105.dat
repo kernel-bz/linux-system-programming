@@ -1,0 +1,59 @@
+//TITLE------------------------------------------------------------------------
+//file name	:	ch0105.dat
+//title		:	대명사
+//creation	:	2009-05-20
+//edition	:   2009-06-22
+//COMMENT----------------------------------------------------------------------
+//#순번
+//query=학습질문(최대80자)
+//path=그림경로(절대경로,최대40자)
+//pic1=그림첫번째 파일명(최대20자)
+//pic2=그림두번째 파일명(최대20자)
+//pic3=그림세번째 파일명(최대20자)
+//pic4=그림네번째 파일명(최대20자)
+//ans=정답번호
+//timeout=대기시간(초)
+//-----------------------------------------------------------------------------
+#START
+#
+query=She
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010120.jpg
+pic2=ch010129.jpg
+pic3=ch010119.jpg
+pic4=ch010128.jpg
+ans=1
+timeout=0
+
+#
+query=He
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010120.jpg
+pic2=ch010129.jpg
+pic3=ch010119.jpg
+pic4=ch010128.jpg
+ans=1
+timeout=0
+
+#
+query=They
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010120.jpg
+pic2=ch010129.jpg
+pic3=ch010119.jpg
+pic4=ch010128.jpg
+ans=1
+timeout=0
+
+#
+query=It
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010120.jpg
+pic2=ch010129.jpg
+pic3=ch010119.jpg
+pic4=ch010128.jpg
+ans=1
+timeout=0
+
+#END
+//-----------------------------------------------------------------------------

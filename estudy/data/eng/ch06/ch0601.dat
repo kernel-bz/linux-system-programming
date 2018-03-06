@@ -1,0 +1,100 @@
+//TITLE------------------------------------------------------------------------
+//file name	:	eng/ch_2.dat
+//function	:	제2장 학습 데이터
+//creation	:	2009-05-20
+//edition	:   2009-06-18
+//COMMENT----------------------------------------------------------------------
+//#순번
+//query=학습질문(최대80자)
+//path=그림경로(절대경로,최대40자)
+//pic1=그림첫번째 파일명(최대20자)
+//pic2=그림두번째 파일명(최대20자)
+//pic3=그림세번째 파일명(최대20자)
+//pic4=그림네번째 파일명(최대20자)
+//ans=정답번호
+//timeout=대기시간(초)
+//-----------------------------------------------------------------------------
+#START
+#1
+query=a book
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020114.jpg
+pic2=ch020119.jpg
+pic3=ch020101.jpg
+pic4=ch020128.jpg
+ans=3
+timeout=0
+#2
+query=a cup
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020126.jpg
+pic2=ch020123.jpg
+pic3=ch020129.jpg
+pic4=ch020137.jpg
+ans=2
+timeout=0
+#3
+query=a dog
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020102.jpg
+pic2=ch020114.jpg
+pic3=ch020127.jpg
+pic4=ch020111.jpg
+ans=2
+timeout=0
+#4
+query=an airplain
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020126.jpg
+pic2=ch020122.jpg
+pic3=ch020105.jpg
+pic4=ch020117.jpg
+ans=1
+timeout=0
+#5
+query=a dish           
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020103.jpg
+pic2=ch020125.jpg
+pic3=ch020112.jpg
+pic4=ch020129.jpg
+ans=4
+timeout=0
+#6
+query=a pan
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020120.jpg
+pic2=ch020130.jpg
+pic3=ch020128.jpg
+pic4=ch020136.jpg
+ans=3
+timeout=0
+#7
+query=a vase
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020135.jpg
+pic2=ch020119.jpg
+pic3=ch020118.jpg
+pic4=ch020130.jpg
+ans=2
+timeout=0
+#8
+query=Books                  
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020107.jpg
+pic2=ch020101.jpg
+pic3=ch020124.jpg
+pic4=ch020121.jpg
+ans=1
+timeout=0
+#9
+query=Dogs
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020117.jpg
+pic2=ch020118.jpg
+pic3=ch020114.jpg
+pic4=ch020115.jpg
+ans=2
+timeout=0
+#END
+//-----------------------------------------------------------------------------

@@ -1,0 +1,173 @@
+//TITLE------------------------------------------------------------------------
+//file name	:	ch0101.dat
+//comments	:	사람의 이름을 이야기 합니다.(명사)
+//creation	:	2009-05-20
+//edition	:   2009-06-22
+//COMMENT----------------------------------------------------------------------
+//#순번
+//query=학습질문(최대80자)
+//path=그림경로(절대경로,최대40자)
+//pic1=그림첫번째 파일명(최대20자)
+//pic2=그림두번째 파일명(최대20자)
+//pic3=그림세번째 파일명(최대20자)
+//pic4=그림네번째 파일명(최대20자)
+//ans=정답번호
+//timeout=대기시간(초)
+//-----------------------------------------------------------------------------
+#START
+#
+query=a boy
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010103.jpg
+pic2=ch010104.jpg
+pic3=ch010101.jpg
+pic4=ch010102.jpg
+ans=3
+timeout=0
+
+#
+query=a girl
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010104.jpg
+pic2=ch010102.jpg
+pic3=ch010103.jpg
+pic4=ch010101.jpg
+ans=2
+timeout=0
+
+#
+query=a man
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010103.jpg
+pic2=ch010104.jpg
+pic3=ch010101.jpg
+pic4=ch010102.jpg
+ans=1
+timeout=0
+
+#
+query=a woman
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010102.jpg
+pic2=ch010101.jpg
+pic3=ch010103.jpg
+pic4=ch010104.jpg
+ans=4
+timeout=0
+
+#
+query=a boy and a girl
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010114.jpg
+pic2=ch010116.jpg
+pic3=ch010108.jpg
+pic4=ch010110.jpg
+ans=2
+timeout=0
+
+#
+query=a man and a woman
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010121.jpg
+pic2=ch010124.jpg
+pic3=ch010130.jpg
+pic4=ch010135.jpg
+ans=2
+timeout=0
+
+#
+query=a child
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010211.jpg
+pic2=ch010212.jpg
+pic3=ch010213.jpg
+pic4=ch010214.jpg
+ans=1
+timeout=0
+
+//query=a baby
+
+#
+query=children
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010125.jpg
+pic2=ch010122.jpg
+pic3=ch010126.jpg
+pic4=ch010117.jpg
+ans=3
+timeout=0
+
+#
+query=a man and two children
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010120.jpg
+pic2=ch010129.jpg
+pic3=ch010119.jpg
+pic4=ch010128.jpg
+ans=1
+timeout=0
+
+//query=an old man
+
+#
+query=a man and an old woman and a girl
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010134.jpg
+pic2=ch010209.jpg
+pic3=ch010210.jpg
+pic4=ch010125.jpg
+ans=1
+timeout=0
+
+#
+query=people
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010224.jpg
+pic2=ch010208.jpg
+pic3=ch010206.jpg
+pic4=ch010135.jpg
+ans=4
+timeout=0
+
+#
+query=a family
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010301.jpg
+pic2=ch010220.jpg
+pic3=ch010215.jpg
+pic4=ch010217.jpg
+ans=2
+timeout=0
+
+#
+query=He
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010118.jpg
+pic2=ch010114.jpg
+pic3=ch010123.jpg
+pic4=ch010128.jpg
+ans=1
+timeout=0
+
+#
+query=She
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010101.jpg
+pic2=ch010104.jpg
+pic3=ch010103.jpg
+pic4=ch010107.jpg
+ans=2
+timeout=0
+
+#
+query=They
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010109.jpg
+pic2=ch010112.jpg
+pic3=ch010105.jpg
+pic4=ch010110.jpg
+ans=3
+timeout=0
+
+#END
+//-----------------------------------------------------------------------------

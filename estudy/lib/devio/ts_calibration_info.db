@@ -1,0 +1,22 @@
+# file name: FILE_TOUCH_CAL_INFO: ts_calibration_info.db
+# int ix_loading_ts_cailbration_info( void )
+[screen-x]
+1=567
+2=204
+3=422
+4=73
+[screen-y]
+1=423
+2=40
+3=126
+4=310
+[touch-x]
+1=3659
+2=1828
+3=2824
+4=1295
+[touch-y]
+1=1258
+2=3671
+3=3159
+4=1935

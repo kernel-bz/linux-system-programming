@@ -1,0 +1,141 @@
+//TITLE------------------------------------------------------------------------
+//file name	:	ch0801.dat
+//function	:	이야기 대상을 다양하게 표현합니다.(동명사,분사,부정사)
+//creation	:	2009-05-20
+//edition	:   2009-06-25
+//COMMENT----------------------------------------------------------------------
+//#순번
+//query=학습질문(최대80자)
+//path=그림경로(절대경로,최대40자)
+//pic1=그림첫번째 파일명(최대20자)
+//pic2=그림두번째 파일명(최대20자)
+//pic3=그림세번째 파일명(최대20자)
+//pic4=그림네번째 파일명(최대20자)
+//ans=정답번호
+//timeout=대기시간(초)
+//-----------------------------------------------------------------------------
+#START
+#
+query=They are sitting.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010105.jpg
+pic2=ch010130.jpg
+pic3=ch010219.jpg
+pic4=ch010210.jpg
+ans=1
+timeout=0
+
+#
+query=He is sitting on the bench.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010109.jpg
+pic2=ch010111.jpg
+pic3=ch010110.jpg
+pic4=ch010113.jpg
+ans=2
+timeout=0
+
+#
+query=She is standing on the bench.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010114.jpg
+pic2=ch010127.jpg
+pic3=ch010202.jpg
+pic4=ch010110.jpg
+ans=4
+timeout=0
+
+#
+query=A boy is standing in front of the piano.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010108.jpg
+pic2=ch010109.jpg
+pic3=ch010107.jpg
+pic4=ch010215.jpg
+ans=3
+timeout=0
+
+#
+query=She is riding a bicycle.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010219.jpg
+pic2=ch010220.jpg
+pic3=ch010218.jpg
+pic4=ch010221.jpg
+ans=3
+timeout=0
+
+#
+query=Birds are swimming on the water.
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020205.jpg
+pic2=ch020202.jpg
+pic3=ch020203.jpg
+pic4=ch020204.jpg
+ans=1
+timeout=0
+
+#
+query=A bird kisses to another bird.
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020204.jpg
+pic2=ch020203.jpg
+pic3=ch020201.jpg
+pic4=ch020202.jpg
+ans=4
+timeout=0
+
+#
+query=A girl is using an umbrella.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010113.jpg
+pic2=ch010112.jpg
+pic3=ch010114.jpg
+pic4=ch010115.jpg
+ans=2
+timeout=0
+
+#
+query=She is jumpping above a stone.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010115.jpg
+pic2=ch010127.jpg
+pic3=ch010214.jpg
+pic4=ch010219.jpg
+ans=1
+timeout=0
+
+#
+query=A boy is stepping from stone to stone.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010113.jpg
+pic2=ch010114.jpg
+pic3=ch010119.jpg
+pic4=ch010205.jpg
+ans=3
+timeout=0
+
+#
+query=They are taking a walk.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010125.jpg
+pic2=ch010124.jpg
+pic3=ch010123.jpg
+pic4=ch010122.jpg
+ans=4
+timeout=0
+
+#
+query=A butterfly is sitting on the flower.
+path=/mnt/usb2/ebook/data/pic/ch03/
+pic1=ch030102.jpg
+pic2=ch030104.jpg
+pic3=ch030101.jpg
+pic4=ch030103.jpg
+ans=2
+timeout=0
+
+//query=A girl is driving a boat.
+
+#END
+//-----------------------------------------------------------------------------

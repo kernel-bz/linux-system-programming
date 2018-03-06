@@ -1,0 +1,89 @@
+//TITLE------------------------------------------------------------------------
+//file name	:	ch0403.dat
+//function	:	목적어가 있는 말을 합니다.(주어,동사,목적어)
+//creation	:	2009-05-20
+//edition	:   2009-06-24
+//COMMENT----------------------------------------------------------------------
+//#순번
+//query=학습질문(최대80자)
+//path=그림경로(절대경로,최대40자)
+//pic1=그림첫번째 파일명(최대20자)
+//pic2=그림두번째 파일명(최대20자)
+//pic3=그림세번째 파일명(최대20자)
+//pic4=그림네번째 파일명(최대20자)
+//ans=정답번호
+//timeout=대기시간(초)
+//-----------------------------------------------------------------------------
+#START
+#
+query=A boy plays the piano.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010108.jpg
+pic2=ch010107.jpg
+pic3=ch010215.jpg
+pic4=ch010106.jpg
+ans=3
+timeout=0
+
+#
+query=The girl has a red ball.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010201.jpg
+pic2=ch010202.jpg
+pic3=ch010203.jpg
+pic4=ch010204.jpg
+ans=1
+timeout=0
+
+#
+query=A boy looks a computer.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010207.jpg
+pic2=ch010206.jpg
+pic3=ch010208.jpg
+pic4=ch010209.jpg
+ans=2
+timeout=0
+
+#
+query=A boy and a girl are look the computer.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010129.jpg
+pic2=ch010209.jpg
+pic3=ch010210.jpg
+pic4=ch010128.jpg
+ans=4
+timeout=0
+
+#
+query=A girl rides the bicycle.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010211.jpg
+pic2=ch010212.jpg
+pic3=ch010213.jpg
+pic4=ch010217.jpg
+ans=4
+timeout=0
+
+#
+query=A family eat foods.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010221.jpg
+pic2=ch010220.jpg
+pic3=ch010219.jpg
+pic4=ch010301.jpg
+ans=2
+timeout=0
+
+#
+query=She put on a cap.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010218.jpg
+pic2=ch010210.jpg
+pic3=ch010216.jpg
+pic4=ch010211.jpg
+ans=3
+timeout=0
+
+#END
+//-----------------------------------------------------------------------------

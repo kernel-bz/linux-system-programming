@@ -1,0 +1,21 @@
+jungjj@linux-3hqy:~/school/02system/ch06/thread> gcc -lpthread -o th02 th02_terminate.c
+jungjj@linux-3hqy:~/school/02system/ch06/thread> ./th02
+thread 2 is running(0)
+thread 1 is running(0)
+thread 2 is running(1)
+thread 1 is running(1)
+thread 1 is running(2)
+thread 2 is running(2)
+thread 1 is running(3)
+thread 2 is running(3)
+thread 1 is running(4)
+thread 2 is running(4)
+thread 1 exit code=1
+thread 2 is running(5)
+thread 2 is running(6)
+thread 2 is running(7)
+thread 2 is running(8)
+thread 2 is running(9)
+thread 2 exit code=2
+^C
+jungjj@linux-3hqy:~/school/02system/ch06/thread>

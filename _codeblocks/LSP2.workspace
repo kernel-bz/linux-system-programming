@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="LSP2.Workspace">
+		<Project filename="LSP2/LSP2.cbp" />
+		<Project filename="ch02/ch02.cbp" />
+		<Project filename="ch03/ch03.cbp" />
+		<Project filename="ch04/ch04.cbp" />
+		<Project filename="ch05/ch05.cbp" />
+		<Project filename="ch06/ch06.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

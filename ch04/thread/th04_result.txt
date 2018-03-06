@@ -1,0 +1,12 @@
+jungjj@linux-3hqy:~/school/02system/ch06/thread> gcc -lpthread -o th04 th04_cleanup.c
+jungjj@linux-3hqy:~/school/02system/ch06/thread> ./th04
+thread 1 is starting
+thread 2 is starting
+thread 2 push complete
+thread 1 push complete
+cleanup: thread 1 second handler
+cleanup: thread 2 second handler
+cleanup: thread 2 first handler
+thread 1 exit code 1
+thread 2 exit code 1
+jungjj@linux-3hqy:~/school/02system/ch06/thread>

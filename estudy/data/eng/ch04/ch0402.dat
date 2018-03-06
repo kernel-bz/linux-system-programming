@@ -1,0 +1,99 @@
+//TITLE------------------------------------------------------------------------
+//file name	:	ch0402.dat
+//function	:	대상을 보충 설명 합니다.(주어,동사,보어)
+//creation	:	2009-05-20
+//edition	:   2009-06-24
+//COMMENT----------------------------------------------------------------------
+//#순번
+//query=학습질문(최대80자)
+//path=그림경로(절대경로,최대40자)
+//pic1=그림첫번째 파일명(최대20자)
+//pic2=그림두번째 파일명(최대20자)
+//pic3=그림세번째 파일명(최대20자)
+//pic4=그림네번째 파일명(최대20자)
+//ans=정답번호
+//timeout=대기시간(초)
+//-----------------------------------------------------------------------------
+#START
+#
+query=He is a smart boy.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010102.jpg
+pic2=ch010104.jpg
+pic3=ch010108.jpg
+pic4=ch010101.jpg
+ans=4
+timeout=0
+
+#
+query=She is a pretty girl.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010102.jpg
+pic2=ch010109.jpg
+pic3=ch010103.jpg
+pic4=ch010113.jpg
+ans=1
+timeout=0
+
+#
+query=She is a beautiful woman.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010103.jpg
+pic2=ch010111.jpg
+pic3=ch010122.jpg
+pic4=ch010104.jpg
+ans=4
+timeout=0
+
+#
+query=It is a big bird.
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020207.jpg
+pic2=ch020205.jpg
+pic3=ch020206.jpg
+pic4=ch020201.jpg
+ans=4
+timeout=0
+
+#
+query=Those are small birds.
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020204.jpg
+pic2=ch020208.jpg
+pic3=ch020201.jpg
+pic4=ch020203.jpg
+ans=2
+timeout=0
+
+#
+query=This is a white car.
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020302.jpg
+pic2=ch020303.jpg
+pic3=ch020301.jpg
+pic4=ch020204.jpg
+ans=3
+timeout=0
+
+#
+query=That is a green flog.
+path=/mnt/usb2/ebook/data/pic/ch03/
+pic1=ch030104.jpg
+pic2=ch030102.jpg
+pic3=ch030105.jpg
+pic4=ch030101.jpg
+ans=2
+timeout=0
+
+#
+query=These are small yellow flowers.
+path=/mnt/usb2/ebook/data/pic/ch03/
+pic1=ch030101.jpg
+pic2=ch030103.jpg
+pic3=ch030104.jpg
+pic4=ch030105.jpg
+ans=1
+timeout=0
+
+#END
+//-----------------------------------------------------------------------------

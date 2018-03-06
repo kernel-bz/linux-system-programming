@@ -1,0 +1,102 @@
+//TITLE------------------------------------------------------------------------
+//file name	:	ch0201.dat
+//function	:	사람과 사물을 꾸며주는 말을 합니다.(형용사)
+//creation	:	2009-05-20
+//edition	:   2009-06-23
+//COMMENT----------------------------------------------------------------------
+//#순번
+//query=학습질문(최대80자)
+//path=그림경로(절대경로,최대40자)
+//pic1=그림첫번째 파일명(최대20자)
+//pic2=그림두번째 파일명(최대20자)
+//pic3=그림세번째 파일명(최대20자)
+//pic4=그림네번째 파일명(최대20자)
+//ans=정답번호
+//timeout=대기시간(초)
+//-----------------------------------------------------------------------------
+#START
+#
+query=a beautiful woman
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010107.jpg
+pic2=ch010113.jpg
+pic3=ch010104.jpg
+pic4=ch010111.jpg
+ans=3
+timeout=0
+#
+query=a pretty girl
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010101.jpg
+pic2=ch010112.jpg
+pic3=ch010103.jpg
+pic4=ch010109.jpg
+ans=2
+timeout=0
+#
+query=a handsome man
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010108.jpg
+pic2=ch010118.jpg
+pic3=ch010127.jpg
+pic4=ch010122.jpg
+ans=2
+timeout=0
+#
+query=a smart boy
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010101.jpg
+pic2=ch010114.jpg
+pic3=ch010110.jpg
+pic4=ch010214.jpg
+ans=1
+timeout=0
+
+#
+query=a big bird
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020203.jpg
+pic2=ch020205.jpg
+pic3=ch020202.jpg
+pic4=ch020201.jpg
+ans=4
+timeout=0
+#
+query=small flowers
+path=/mnt/usb2/ebook/data/pic/ch03/
+pic1=ch030101.jpg
+pic2=ch030102.jpg
+pic3=ch030103.jpg
+pic4=ch030104.jpg
+ans=1
+timeout=0
+#
+query=a white car
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020302.jpg
+pic2=ch020303.jpg
+pic3=ch020301.jpg
+pic4=ch020204.jpg
+ans=3
+timeout=0
+#7
+query=red flowers
+path=/mnt/usb2/ebook/data/pic/ch03/
+pic1=ch030105.jpg
+pic2=ch030108.jpg
+pic3=ch030101.jpg
+pic4=ch030103.jpg
+ans=2
+timeout=0
+#
+query=a green flog
+path=/mnt/usb2/ebook/data/pic/ch03/
+pic1=ch030103.jpg
+pic2=ch030102.jpg
+pic3=ch030105.jpg
+pic4=ch030104.jpg
+ans=2
+timeout=0
+
+#END
+//-----------------------------------------------------------------------------

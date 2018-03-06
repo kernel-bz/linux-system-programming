@@ -1,0 +1,202 @@
+//TITLE------------------------------------------------------------------------
+//file name	:	eng_query.dat
+//function	:	영어 학습 쿼리
+//creation	:	2009-05-20
+//edition	:   2009-06-24
+
+//query=학습질문(최대80자)
+
+//01---------------------------------------------------------------------------
+#0101
+title=사람의 이름을 이해 합니다.(명사)
+query=a boy
+query=a girl
+query=a man
+query=a woman
+query=a boy and a girl
+query=a man and a woman
+query=a child
+//query=a baby
+query=children
+query=a man and two children
+//query=an old man
+query=a man and an old woman and a girl
+query=people
+query=a family
+query=He
+query=She
+query=They
+
+#0102
+title=사물의 이름을 이해 합니다.
+query=a bird
+query=a dog
+query=a book
+query=a cup
+query=an airplane
+query=a dish           
+query=a pan
+query=a vase
+query=a flog
+query=a car
+query=a butterfly
+
+#0103
+title=수량에 대해서 이해 합니다.(복수)
+//many, few, little, some, much...
+query=one bird
+query=two birds
+query=Birds
+query=three birds
+query=four birds
+query=one book
+query=Books                  
+query=five books
+query=six books
+query=seven books
+query=eight books
+query=nine books
+query=ten books
+query=five persons
+query=men
+query=women
+//query=boys
+//query=girls
+
+//02---------------------------------------------------------------------------
+#0201
+title=사람과 사물을 꾸며주는 말을 합니다.(형용사)
+//사람의 모습, 대소, 색상, 시청각,맛과냄새,촉각
+query=a beautiful woman
+query=a pretty girl
+query=a handsome man
+query=a smart boy
+query=a big bird
+query=small flowers
+query=a white car
+query=red flowers
+query=a green flog
+
+//03---------------------------------------------------------------------------
+#0301
+title=장소와 위치에 대해서 이야기 합니다.(전치사)
+//over, above, up, on, beneath, below, under, down, in, out, into, out of
+//through, along, across, beside, in front of, before, after
+query=a book on the table
+query=books under the table
+query=books side of the table
+query=a dog on the chair
+query=a vase and two books on the table
+query=two pens in the cup
+query=two eggs in the pan
+query=scissors on the dish
+query=a spoon left side of the dish
+query=a spoon right side of the dish
+query=the cup in front of the dish
+query=the cup behind the dish
+
+//04---------------------------------------------------------------------------
+#0401
+title=설명하는 말을 합니다.(주어,동사)
+query=The woman is beautiful.
+query=The man is handsome.
+query=The boy smiles.
+query=A girl jumps.
+query=A man and a woman walk.
+query=The car is white.
+query=Flowers are red.
+query=He sits on the bench.
+query=The girl stands on the bench.
+query=A boy stands in front of the piano.
+query=She is under the umbrella.
+query=A dog is on a chair.
+query=A red pen is in a cup.
+query=Some water is in the cup.
+query=There are many people.
+query=There is a book on the table.
+query=There are five books on the table.
+query=The bird is big.
+query=Birds are small.
+query=He walks across over the stepping stones.
+query=They walk on the running machine.
+
+#0402
+title=대상을 보충 설명 합니다.(주어,동사,보어)
+query=He is a smart boy.
+query=She is a pretty girl.
+query=She is a beautiful woman.
+query=It is a big bird.
+query=They are small birds.
+
+#0403
+title=목적어가 있는 말을 합니다.(주어,동사,목적어)
+query=A girl plays the piano.
+query=The girl has a red ball.
+query=A boy looks a computer.
+query=A boy and a girl are look the computer.
+query=A girl rides the bicycle.
+query=She put on a cap.
+
+#0404
+title=목적 대상이 여러개인 말을 합니다.(간접,직접목적어)
+query=She gives him a flower.
+
+#0405
+title=목적 대상을 보충 설명 합니다.(주어,동사,목적어,보어)
+query=She makes me happy.
+
+//05---------------------------------------------------------------------------
+#0501
+title=질문하는 말을 합니다.(의문문)
+query=Is she a girl?  Yes, she is a girl.
+query=Is he a boy?  No, he is not boy.
+query=Are they playing the piano?  No, they are in front of the piano.
+
+//06---------------------------------------------------------------------------
+#0601
+title=행동을 강조하는 말을 합니다.(조동사)
+query=She can ride the bicycle.
+
+//07---------------------------------------------------------------------------
+#0701
+title=여러가지 말을 부수적으로 추가합니다.(부사)
+query=She laughs brightly.
+query=The man is very handsome.
+
+//08---------------------------------------------------------------------------
+#0801
+title=이야기 대상을 다양하게 표현합니다.(동명사,분사,부정사)
+query=They are sitting.
+query=A girl is using an umbrella.
+query=She is jumpping above a stone.
+query=A boy is stepping from stone to stone.
+query=They are taking a walk.
+//Taking a walk is good aports.
+query=He is sitting on the bench.
+query=She is standing on the bench.
+query=A boy is standing in front of the piano.
+query=She is riding a bicycle.
+
+query=She grows to be a mother.
+
+//09-----------------------------------------------------------------------------
+#0901
+title=과거와 미래에 대해서 이야기 합니다.(시제)
+query=The girl played the piano.
+query=He will be a adult.
+
+//10-----------------------------------------------------------------------------
+#1001
+title=여러가지 문장을 연결하여 이야기 합니다.(접속사,관계사)
+query=A vase is on the table and two dogs are under the table.
+
+//11-----------------------------------------------------------------------------
+#1101
+title=사물을 상세하게 설명합니다.(표현)
+
+//12-----------------------------------------------------------------------------
+#1201
+title=책을 읽고 이해합니다.(독해)
+
+#END
+//-----------------------------------------------------------------------------

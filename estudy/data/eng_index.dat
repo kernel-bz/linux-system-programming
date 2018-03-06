@@ -1,0 +1,113 @@
+//TITLE------------------------------------------------------------------------
+//file name	:	eng_index.dat
+//function	:	영어 학습 목록
+//creation	:	2009-05-20
+//edition	:   2009-06-22
+//COMMENT----------------------------------------------------------------------
+//#분류번호(대,중,소분류)
+//space=왼쪽문자여백(글자수단위)
+//title=학습제목(최대60자,한글30자)
+//path=경로(절대경로,최대40자)
+//file=데이터파일명(최대20자)
+//-----------------------------------------------------------------------------
+#START
+#0101
+space=0
+title=사람의 이름을 이해 합니다.(명사)
+path=/mnt/usb2/ebook/data/eng/ch01/
+file=ch0101.dat
+
+#0102
+space=2
+title=사물의 이름을 이해 합니다.
+path=/mnt/usb2/ebook/data/eng/ch01/
+file=ch0102.dat
+
+#0103
+space=2
+title=수량에 대해서 이해 합니다.(복수)
+path=/mnt/usb2/ebook/data/eng/ch01/
+file=ch0103.dat
+
+//-----------------------------------------------------------------------------
+#02
+space=0
+title=사람과 사물을 꾸며주는 말을 합니다.(형용사)
+path=/mnt/usb2/ebook/data/eng/ch02/
+file=ch0201.dat
+#03
+space=0
+title=장소와 위치에 대해서 이야기 합니다.(전치사)
+path=/mnt/usb2/ebook/data/eng/ch03/
+file=ch0301.dat
+//-----------------------------------------------------------------------------
+#0401
+space=0
+title=설명하는 말을 합니다.(주어,동사)
+path=/mnt/usb2/ebook/data/eng/ch04/
+file=ch0401.dat
+#0402
+space=2
+title=대상을 보충 설명 합니다.(주어,동사,보어)
+path=/mnt/usb2/ebook/data/eng/ch04/
+file=ch0402.dat
+#0403
+space=2
+title=목적어가 있는 말을 합니다.(주어,동사,목적어)
+path=/mnt/usb2/ebook/data/eng/ch04/
+file=ch0403.dat
+#0404
+space=2
+title=목적 대상이 여러개인 말을 합니다.(간접,직접목적어)
+path=/mnt/usb2/ebook/data/eng/ch04/
+file=ch0404.dat
+#0405
+space=2
+title=목적 대상을 보충하여 이야기 합니다.(주어,동사,목적어,보어)
+path=/mnt/usb2/ebook/data/eng/ch04/
+file=ch0405.dat
+//-----------------------------------------------------------------------------
+#05
+space=0
+title=질문하는 말을 합니다.(의문문)
+path=/mnt/usb2/ebook/data/eng/ch05/
+file=ch0501.dat
+//-----------------------------------------------------------------------------
+#06
+space=0
+title=행동을 강조하는 말을 합니다.(조동사)
+path=/mnt/usb2/ebook/data/eng/
+file=ch0601.dat
+#07
+space=0
+title=여러가지 말을 부수적으로 추가합니다.(부사)
+path=/mnt/usb2/ebook/data/eng/
+file=ch0701.dat
+#08
+space=0
+title=이야기 대상을 다양하게 표현합니다.(동명사,분사,부정사)
+path=/mnt/usb2/ebook/data/eng/ch08/
+file=ch0801.dat
+//-----------------------------------------------------------------------------
+#09
+space=0
+title=과거와 미래에 대해서 이야기 합니다.(시제)
+path=/mnt/usb2/ebook/data/eng/
+file=ch0901.dat
+#10
+space=0
+title=여러가지 문장을 연결하여 이야기 합니다.(접속사,관계사)
+path=/mnt/usb2/ebook/data/eng/
+file=ch1001.dat
+#11
+space=0
+title=사물을 상세하게 설명합니다.(표현)
+path=/mnt/usb2/ebook/data/eng/
+file=ch1101.dat
+#12
+space=0
+title=책을 읽고 이해합니다.(독해)
+path=/mnt/usb2/ebook/data/eng/
+file=ch1201.dat
+#END
+//-----------------------------------------------------------------------------

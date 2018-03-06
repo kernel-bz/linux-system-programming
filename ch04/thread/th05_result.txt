@@ -1,0 +1,12 @@
+jungjj@linux-3hqy:~/school/02system/ch06/thread> gcc -lpthread -o th05 th05_sync.c
+jungjj@linux-3hqy:~/school/02system/ch06/thread> ./th05
+thread1 = 3085077392
+thread=3085077392, count=2
+thread=3076684688, count=1
+thread2 = 3076684688
+thread=3085077392, count=2
+thread=3076684688, count=1
+thread=3076684688, count=0
+foo released.
+^C
+jungjj@linux-3hqy:~/school/02system/ch06/thread>

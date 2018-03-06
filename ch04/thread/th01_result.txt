@@ -1,0 +1,7 @@
+jungjj@linux-3hqy:~/school/02system/ch06/thread> gcc -lpthread -o th01 th01.c
+jungjj@linux-3hqy:~/school/02system/ch06/thread> ./th01
+tidp = 3085351824
+main thread: pid=4290, tid=3085354688(0xB7E6C6C0)
+new thread:  pid=4290, tid=3085351824(0xB7E6BB90)
+^C
+jungjj@linux-3hqy:~/school/02system/ch06/thread>

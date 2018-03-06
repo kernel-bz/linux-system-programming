@@ -1,0 +1,118 @@
+//TITLE------------------------------------------------------------------------
+//file name	:	ch0102.dat
+//comments	:	사물의 이름
+//creation	:	2009-05-20
+//edition	:   2009-06-22
+//COMMENT----------------------------------------------------------------------
+//#순번
+//query=학습질문(최대80자)
+//path=그림경로(절대경로,최대40자)
+//pic1=그림첫번째 파일명(최대20자)
+//pic2=그림두번째 파일명(최대20자)
+//pic3=그림세번째 파일명(최대20자)
+//pic4=그림네번째 파일명(최대20자)
+//ans=정답번호
+//timeout=대기시간(초)
+//-----------------------------------------------------------------------------
+#START
+#
+query=a bird
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020301.jpg
+pic2=ch020204.jpg
+pic3=ch020136.jpg
+pic4=ch020126.jpg
+ans=2
+timeout=0
+#
+query=a dog
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020119.jpg
+pic2=ch020123.jpg
+pic3=ch020101.jpg
+pic4=ch020117.jpg
+ans=4
+timeout=0
+#
+query=a book
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020107.jpg
+pic2=ch020119.jpg
+pic3=ch020101.jpg
+pic4=ch020118.jpg
+ans=3
+timeout=0
+#
+query=a cup
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020126.jpg
+pic2=ch020123.jpg
+pic3=ch020129.jpg
+pic4=ch020201.jpg
+ans=2
+timeout=0
+#
+query=an airplane
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020126.jpg
+pic2=ch020122.jpg
+pic3=ch020105.jpg
+pic4=ch020117.jpg
+ans=1
+timeout=0
+#
+query=a dish           
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020103.jpg
+pic2=ch020125.jpg
+pic3=ch020112.jpg
+pic4=ch020129.jpg
+ans=4
+timeout=0
+#
+query=a pan
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020120.jpg
+pic2=ch020130.jpg
+pic3=ch020128.jpg
+pic4=ch020136.jpg
+ans=3
+timeout=0
+#
+query=a vase
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020135.jpg
+pic2=ch020119.jpg
+pic3=ch020118.jpg
+pic4=ch020130.jpg
+ans=2
+timeout=0
+#
+query=a flog
+path=/mnt/usb2/ebook/data/pic/ch03/
+pic1=ch030104.jpg
+pic2=ch030102.jpg
+pic3=ch030101.jpg
+pic4=ch030105.jpg
+ans=2
+timeout=0
+#
+query=a car
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020301.jpg
+pic2=ch020201.jpg
+pic3=ch020118.jpg
+pic4=ch020130.jpg
+ans=1
+timeout=0
+#
+query=a butterfly
+path=/mnt/usb2/ebook/data/pic/ch03/
+pic1=ch030102.jpg
+pic2=ch030103.jpg
+pic3=ch030108.jpg
+pic4=ch030104.jpg
+ans=4
+timeout=0
+#END
+//-----------------------------------------------------------------------------

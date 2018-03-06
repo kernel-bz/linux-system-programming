@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LSP2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LSP2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LSP2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../ch02/ch0201.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch02/ch0202.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch02/ch0203.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch02/ch0203_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch02/ch0203_3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch02/ch0204.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch02/ch0207.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch02/ch0207_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch02/ch0207_3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch02/ch0208.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch02/ch0208_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch03/ch0301.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch03/ch0302.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch03/ch0303.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch03/ch0303_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch03/ch0310.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch03/ch0310_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/process/ch0401_fork.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/process/ch0401_fork2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/process/ch0402_fork_exec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/process/ch0404_wait.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/process/ch0405_daemon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/process/ch0405_zombi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/process/ch0406_signal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/process/ch0406_signal2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/thread/th01_create.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/thread/th01_result.txt" />
+		<Unit filename="../../ch04/thread/th02_result.txt" />
+		<Unit filename="../../ch04/thread/th02_terminate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/thread/th03_arg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/thread/th03_exit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/thread/th03_result.txt" />
+		<Unit filename="../../ch04/thread/th04_cleanup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/thread/th04_result.txt" />
+		<Unit filename="../../ch04/thread/th05_result.txt" />
+		<Unit filename="../../ch04/thread/th05_sync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/ch0501_process_id.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/ch0504_wait.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/ex0501_fork.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/ex0502_fork_exec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/ex0503_zombi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/ex0504_daemon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/ex0601_thread_create.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/ex0602_thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/ex0603_mutex0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/ex0604_mutex1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/ex0605_thread_pool_sever.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/thread/th01_create.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/thread/th02_terminate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/thread/th03_exit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/thread/th04_cleanup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/thread/th05_sync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/thread/th06_mutex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/thread/th07_read_writer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/thread/th08_condition.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch04/tmp/thread/th09_attr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch05/ch0501_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch05/ch0502_getres.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch05/ch0503_gettime.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch05/ch0504_gettimeofday.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch05/ch0505_localtime.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch05/ch0506_timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch05/ch0507_pause_timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch06/ch0601_mmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch06/ch0602_calloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch06/ch0602_malloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ch06/ch0603_alloca.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

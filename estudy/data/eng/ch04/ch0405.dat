@@ -1,0 +1,219 @@
+//TITLE------------------------------------------------------------------------
+//file name	:	ch0405.dat
+//function	:	목적 대상을 보충하여 이야기 합니다.(주어,동사,목적어,보어)
+//creation	:	2009-05-20
+//edition	:   2009-06-24
+//COMMENT----------------------------------------------------------------------
+//#순번
+//query=학습질문(최대80자)
+//path=그림경로(절대경로,최대40자)
+//pic1=그림첫번째 파일명(최대20자)
+//pic2=그림두번째 파일명(최대20자)
+//pic3=그림세번째 파일명(최대20자)
+//pic4=그림네번째 파일명(최대20자)
+//ans=정답번호
+//timeout=대기시간(초)
+//-----------------------------------------------------------------------------
+#START
+#
+query=The woman is beautiful.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010103.jpg
+pic2=ch010101.jpg
+pic3=ch010107.jpg
+pic4=ch010104.jpg
+ans=4
+timeout=0
+
+#
+query=The man is handsome.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010114.jpg
+pic2=ch010113.jpg
+pic3=ch010117.jpg
+pic4=ch010123.jpg
+ans=3
+timeout=0
+
+#
+query=A boy smiles.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010206.jpg
+pic2=ch010208.jpg
+pic3=ch010210.jpg
+pic4=ch010212.jpg
+ans=2
+timeout=0
+
+#
+query=A girl jumps.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010118.jpg
+pic2=ch010115.jpg
+pic3=ch010110.jpg
+pic4=ch010112.jpg
+ans=2
+timeout=0
+
+#
+query=A man and a woman walk.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010122.jpg
+pic2=ch010121.jpg
+pic3=ch010123.jpg
+pic4=ch010124.jpg
+ans=1
+timeout=0
+
+#
+query=A car is white.
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020302.jpg
+pic2=ch020303.jpg
+pic3=ch020301.jpg
+pic4=ch020204.jpg
+ans=3
+timeout=0
+
+#
+query=Flowers are red.
+path=/mnt/usb2/ebook/data/pic/ch03/
+pic1=ch030101.jpg
+pic2=ch030103.jpg
+pic3=ch030105.jpg
+pic4=ch030108.jpg
+ans=4
+timeout=0
+
+#
+query=He sits on the bench.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010118.jpg
+pic2=ch010113.jpg
+pic3=ch010120.jpg
+pic4=ch010123.jpg
+ans=1
+timeout=0
+
+#
+query=The girl stands on the bench.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010109.jpg
+pic2=ch010110.jpg
+pic3=ch010111.jpg
+pic4=ch010112.jpg
+ans=2
+timeout=0
+
+#
+query=A boy stands in front of the piano.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010108.jpg
+pic2=ch010107.jpg
+pic3=ch010109.jpg
+pic4=ch010215.jpg
+ans=2
+timeout=0
+
+#
+query=She is under the umbrella.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010105.jpg
+pic2=ch010104.jpg
+pic3=ch010112.jpg
+pic4=ch010121.jpg
+ans=3
+timeout=0
+
+#
+query=A dog is on a chair.
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020114.jpg
+pic2=ch020116.jpg
+pic3=ch020117.jpg
+pic4=ch020120.jpg
+ans=3
+timeout=0
+
+#
+query=A red pen is in a cup.
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020123.jpg
+pic2=ch020127.jpg
+pic3=ch020129.jpg
+pic4=ch020136.jpg
+ans=1
+timeout=0
+
+#
+query=There are many people.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010129.jpg
+pic2=ch010128.jpg
+pic3=ch010135.jpg
+pic4=ch010134.jpg
+ans=3
+timeout=0
+
+#
+query=There is a book on the table.
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020124.jpg
+pic2=ch020103.jpg
+pic3=ch020131.jpg
+pic4=ch020101.jpg
+ans=4
+timeout=0
+
+#
+query=There are five books on the table.
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020102.jpg
+pic2=ch020103.jpg
+pic3=ch020104.jpg
+pic4=ch020105.jpg
+ans=4
+timeout=0
+
+#
+query=The bird is big.
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020207.jpg
+pic2=ch020201.jpg
+pic3=ch020202.jpg
+pic4=ch020208.jpg
+ans=2
+timeout=0
+
+#
+query=Birds are small.
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020206.jpg
+pic2=ch020204.jpg
+pic3=ch020203.jpg
+pic4=ch020137.jpg
+ans=1
+timeout=0
+
+#
+query=He walks across over the stepping stones.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010113.jpg
+pic2=ch010114.jpg
+pic3=ch010119.jpg
+pic4=ch010109.jpg
+ans=3
+timeout=0
+
+#
+query=They walk on the running machine.
+path=/mnt/usb2/ebook/data/pic/ch01/
+pic1=ch010205.jpg
+pic2=ch010204.jpg
+pic3=ch010210.jpg
+pic4=ch010203.jpg
+ans=4
+timeout=0
+
+#END
+//-----------------------------------------------------------------------------

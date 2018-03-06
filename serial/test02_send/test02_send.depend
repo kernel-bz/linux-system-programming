@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1447312526 source:/home/pi/JJJ/LinuxSysProgram/serial/test02/send.c
+	<stdio.h>
+	<string.h>
+	<termios.h>
+	"serial.h"
+
+1447308664 /home/pi/JJJ/LinuxSysProgram/serial/test02/serial.h
+
+1447315388 source:/home/pi/JJJ/LinuxSysProgram/serial/test02/serial.c
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+	"serial.h"
+

@@ -1,0 +1,136 @@
+//TITLE------------------------------------------------------------------------
+//file name	:	ch0104.dat
+//function	:	수량에 대해서 이해합니다.
+//creation	:	2009-05-20
+//edition	:   2009-06-22
+//COMMENT----------------------------------------------------------------------
+//#순번
+//query=학습질문(최대80자)
+//path=그림경로(절대경로,최대40자)
+//pic1=그림첫번째 파일명(최대20자)
+//pic2=그림두번째 파일명(최대20자)
+//pic3=그림세번째 파일명(최대20자)
+//pic4=그림네번째 파일명(최대20자)
+//ans=정답번호
+//timeout=대기시간(초)
+//-----------------------------------------------------------------------------
+#START
+#
+query=one bird
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020107.jpg
+pic2=ch020101.jpg
+pic3=ch020124.jpg
+pic4=ch020121.jpg
+ans=1
+timeout=0
+#
+query=two birds
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020107.jpg
+pic2=ch020101.jpg
+pic3=ch020124.jpg
+pic4=ch020121.jpg
+ans=1
+timeout=0
+#
+query=Birds
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020117.jpg
+pic2=ch020118.jpg
+pic3=ch020114.jpg
+pic4=ch020115.jpg
+ans=2
+timeout=0
+#
+query=three birds
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020107.jpg
+pic2=ch020101.jpg
+pic3=ch020124.jpg
+pic4=ch020121.jpg
+ans=1
+timeout=0
+#
+query=four birds
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020107.jpg
+pic2=ch020101.jpg
+pic3=ch020124.jpg
+pic4=ch020121.jpg
+ans=1
+timeout=0
+#
+query=one book
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020107.jpg
+pic2=ch020101.jpg
+pic3=ch020124.jpg
+pic4=ch020121.jpg
+ans=1
+timeout=0
+#
+query=Books                  
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020107.jpg
+pic2=ch020101.jpg
+pic3=ch020124.jpg
+pic4=ch020121.jpg
+ans=1
+timeout=0
+#
+query=five books
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020107.jpg
+pic2=ch020101.jpg
+pic3=ch020124.jpg
+pic4=ch020121.jpg
+ans=1
+timeout=0
+#
+query=six books
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020107.jpg
+pic2=ch020101.jpg
+pic3=ch020124.jpg
+pic4=ch020121.jpg
+ans=1
+timeout=0
+#
+query=seven books
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020107.jpg
+pic2=ch020101.jpg
+pic3=ch020124.jpg
+pic4=ch020121.jpg
+ans=1
+timeout=0
+#
+query=eight books
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020107.jpg
+pic2=ch020101.jpg
+pic3=ch020124.jpg
+pic4=ch020121.jpg
+ans=1
+timeout=0
+#
+query=nine books
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020107.jpg
+pic2=ch020101.jpg
+pic3=ch020124.jpg
+pic4=ch020121.jpg
+ans=1
+timeout=0
+#
+query=ten books
+path=/mnt/usb2/ebook/data/pic/ch02/
+pic1=ch020107.jpg
+pic2=ch020101.jpg
+pic3=ch020124.jpg
+pic4=ch020121.jpg
+ans=1
+timeout=0
+#END
+//-----------------------------------------------------------------------------
