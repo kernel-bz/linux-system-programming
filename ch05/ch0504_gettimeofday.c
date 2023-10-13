@@ -13,11 +13,11 @@ int main(void)
 	int ret;
 
 	ret = gettimeofday (&tv, NULL);
-    if (ret)
-        perror ("gettimeofday");
-    else
-        printf ("seconds=%ld useconds=%ld\n",
-                (long) tv.tv_sec, (long) tv.tv_usec);
+    	if (ret)
+        	perror ("gettimeofday");
+    	else
+        	printf ("seconds=%ld useconds=%ld\n",
+                	(long) tv.tv_sec, (long) tv.tv_usec);
 
     /**
 	struct timeval tv = { .tv_sec = 1327719434,

@@ -31,16 +31,18 @@ void *thr_fn (void *arg)
 int main(void)
 {
     int err;
-	pthread_t tidp;
+    pthread_t tidp;
 
     err = pthread_create (&tidp, NULL, thr_fn, NULL);
     if (err) {
         printf("can't create thread: %s\n", strerror(err));
 		exit(-1);
-	} else printf("tidp = %lu\n", tidp);
+    } else printf("tidp = %lu\n", tidp);
 
     printids ("main thread:");
     sleep (1);
+
     //exit (0);
-	while(1) pause();
+
+    while(1) pause();
 }

@@ -62,10 +62,13 @@ int main (void)
 
         if (fds[2].revents & POLLIN) {
             printf ("serial is readable\n");
+            read(fds[2].fd, buf, sizeof(buf));
+	    printf("serial read: %s\n", buf);
         }
 
         if (fds[3].revents & POLLOUT) {
             printf ("serial is writeable\n");
+            //write(fds[3].fd, buf, strlen(buf));
         }
 
         sleep(1);

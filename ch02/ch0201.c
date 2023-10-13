@@ -7,7 +7,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include <stdio.h>
+#include <unistd.h>
 
 int main ()
 {
@@ -18,7 +18,7 @@ int main ()
 	if (fd1 == -1) printf ("file(tset.txt) open error!\n");
 	else printf ("file(test.txt):%d succeded\n", fd1);
 
-	fd2 = creat ("./test2.txt", 0644);
+	fd2 = creat ("./test2.txt", 0644);	//110 100 100 //rw-r--r--
 	if (fd2 == -1) printf ("file(tset2.txt) open error!\n");
 	else printf ("file(test2.txt):%d succeded!\n", fd2);
 

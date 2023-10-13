@@ -9,6 +9,7 @@
 #include <unistd.h>
 #include <sys/select.h>
 #include <fcntl.h>
+#include <string.h>
 
 #define TIMEOUT        5    ///초단위의select timeout
 #define BUF_LEN     1024    ///바이트단위의read buffer
@@ -23,7 +24,8 @@ int main (void)
     int len;
 
     ///fd = open("/dev/ttyAMA0", O_RDWR);  ///serial
-    fd = open("/dev/ttyAMA0", O_RDWR | O_NONBLOCK);  ///serial
+    //fd = open("/dev/ttyAMA0", O_RDWR | O_NONBLOCK);  ///serial
+    fd = open("/dev/ttyS0", O_RDWR | O_NONBLOCK);  ///serial
 
 _RETRY:
     memset(buf, 0, sizeof(buf));
@@ -46,7 +48,7 @@ _RETRY:
     tv.tv_usec = 0;
     ///tv.tv_usec = 100;       ///100usec
 
-    ret = select (3, &readfds, &writefds, NULL, &tv);
+    ret = select (4, &readfds, &writefds, NULL, &tv);
     if (ret == -1) {
         printf ("select(): error\n");
         return 1;
@@ -87,9 +89,10 @@ _RETRY:
         ///return 0;
     }
 
-    if (FD_ISSET (fd, &otherfds))  ///serial writable
+    //if (FD_ISSET (fd, &otherfds))  ///serial writable
+    if (FD_ISSET (fd, &readfds))  ///serial writable
     {
-        printf("FD_ISSET() for others\n");
+        printf("FD_ISSET() for serial read\n");
 
         len = read (fd, buf, BUF_LEN);
         if (len == -1) {
@@ -103,6 +106,21 @@ _RETRY:
         ///return 0;
     }
 
+    if (FD_ISSET (fd, &writefds))  ///serial writable
+    {
+        printf("FD_ISSET() for serial write\n");
+
+        len = write (fd, buf, BUF_LEN);
+        if (len == -1) {
+            printf ("write(SERIAL): error\n");
+            ///return 1;
+        }
+        if (len > 0) {
+            buf[len] = '\0';
+            printf ("write(SERIAL): %d: %s\n", len, buf);
+        }
+        ///return 0;
+    }
     sleep(2);
     goto _RETRY;
 

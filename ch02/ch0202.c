@@ -10,6 +10,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <string.h>
+#include <unistd.h>
 
 int main ()
 {
@@ -18,7 +19,7 @@ int main ()
 	ssize_t nr;
 
 	fd1 = open ("./test.txt", O_WRONLY | O_CREAT | O_TRUNC,
-								S_IWUSR | S_IRUSR | S_IWGRP | S_IRGRP | S_IROTH);
+			S_IWUSR | S_IRUSR | S_IWGRP | S_IRGRP | S_IROTH);
 
 	if (fd1 == -1) printf ("file(tset.txt) open error!\n");
 	else printf ("file(test.txt) %d succeded\n", fd1);
@@ -31,7 +32,7 @@ int main ()
 	if (nr == -1) printf ("test2.txt writing error!\n");
 	else printf ("test2.txt writing succeed!(%d)\n", nr);
 
-    close(fd1);
-    close(fd2);
+    	close(fd1);
+    	close(fd2);
 	return 0;
 }

@@ -26,7 +26,7 @@ int main (void)
 	tms = localtime (&t);
 	printf ("year-month-day hh:mm:ss %d, %d-%d-%d %d:%d:%d\n"
                 , tms->tm_year
-				, tms->tm_year % 100 + 2000, tms->tm_mon+1, tms->tm_mday
-				, tms->tm_hour, tms->tm_min, tms->tm_sec);
+		, tms->tm_year % 100 + 2000, tms->tm_mon+1, tms->tm_mday
+		, tms->tm_hour, tms->tm_min, tms->tm_sec);
 	return 0;
 }

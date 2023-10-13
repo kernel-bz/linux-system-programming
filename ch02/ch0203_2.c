@@ -24,7 +24,7 @@
 int file_read (int fd)
 {
 	int len = 0;
-	char buf[BUF_SIZE];
+	char buf[BUF_SIZE + 1];
 	ssize_t rsize;
 	//int len = 0;
 	memset (buf, 0, sizeof(buf));
@@ -92,7 +92,7 @@ int main (int argc, char **argv)
 	len = file_read (fd);
 	printf ("\n=========================\n");
 	printf ("file read length = %d\n", len);
-	if (close (fd) == -1) printf ("close(): error\n");
+
+	if (close (fd) == -1) 
+		printf ("close(): error\n");
 }
-
-

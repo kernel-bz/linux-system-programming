@@ -48,7 +48,7 @@ void foo_hold_plus (struct foo *fp)
 {
 	if(!fp) return;
 
-    fp->f_count++;
+    	fp->f_count++;
 
 	//printf("thread=%lu, count=%d\n", pthread_self(), fp->f_count);
 	///if (fp->f_count==0) foo_free(fp);
@@ -59,7 +59,7 @@ void foo_hold_minus (struct foo *fp)
 {
 	if(!fp) return;
 
-    fp->f_count--;
+    	fp->f_count--;
 
 	//printf("thread=%lu, count=%d\n", pthread_self(), fp->f_count);
 	///if (fp->f_count==0) foo_free(fp);
@@ -82,7 +82,7 @@ void *thr_fn1(void *arg)
         sleep(1);
     }
 
-	return ((void*)0);
+    return ((void*)0);
 }
 
 void *thr_fn2(void *arg)
@@ -101,7 +101,7 @@ void *thr_fn2(void *arg)
 
         sleep(1);
     }
-	return ((void*)0);
+    return ((void*)0);
 }
 
 int main(void)

@@ -20,11 +20,14 @@ int main (void)
 
     //stdin에서입력대기
     FD_ZERO (&readfds);
-    FD_SET (STDIN_FILENO, &readfds);
+    FD_SET (STDIN_FILENO, &readfds);	//keyboard: 0
     //5초동안대기
     tv.tv_sec = TIMEOUT;
-
     tv.tv_usec = 0;
+
+    printf("stdin=%d\n", STDIN_FILENO);
+
+_retry:
     ret = select (STDIN_FILENO + 1, &readfds, NULL, NULL, &tv);
     if (ret == -1) {
         printf ("select(): error\n");
@@ -47,7 +50,8 @@ int main (void)
             buf[len] = '\0';
             printf ("read: %s\n", buf);
         }
-        return 0;
+        //return 0;
+	goto _retry;
     }
 
     fprintf (stderr, "This should not happen!\n");

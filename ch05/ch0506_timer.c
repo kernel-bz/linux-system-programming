@@ -21,7 +21,7 @@ void my_timer(void)
 		perror ("timer_create");
 
 	struct itimerspec ts;
-	ts.it_interval.tv_sec = 1;
+	ts.it_interval.tv_sec = 4;
 	ts.it_interval.tv_nsec = 0;
 	ts.it_value.tv_sec = 1;
 	ts.it_value.tv_nsec = 0;

@@ -13,7 +13,7 @@ int main ()
 {
 	off_t ret;
 	long int fd, rn;
-	char buf[30] = {0, };
+	char buf[31] = {0, };
 
 	//I am testing the write(). //25 bytes
 	fd = open ("./test2.txt", O_RDONLY);

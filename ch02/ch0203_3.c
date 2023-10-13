@@ -102,6 +102,8 @@ int main (int argc, char **argv)
 	len = file_read (fd);
 	printf ("\n=========================\n");
 	printf ("file read length = %d\n", len);
+	printf ("%s", total_buffer);
+
 	if (close (fd) == -1) printf ("close(): error\n");
 
 	return 0;
